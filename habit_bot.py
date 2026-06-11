@@ -33,7 +33,7 @@ from telegram.ext import (
 TOKEN = os.environ.get("BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
 
 TIMEZONE = "Asia/Taipei"
-NUDGE_TIMES = ["09:00", "13:00", "16:00", "20:00"]
+NUDGE_TIMES = ["10:00", "11:00", "12:00", "14:00", "15:00", "16:00", "17:00", "18:00"]
 
 HABITS = [
     "\U0001F4A7 Drink a glass of water.",
