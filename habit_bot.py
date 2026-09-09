@@ -36,16 +36,16 @@ TIMEZONE = "Asia/Taipei"
 NUDGE_TIMES = ["10:00", "11:00", "12:00", "14:00", "15:00", "16:00", "17:00", "18:00"]
 
 HABITS = [
-    "\U0001F4A7 Drink a glass of water.",
-    "\U0001F4A7 做野做到一頭煙，飮杯水清醒下先。",
-    "\U0001F9CD Stand up and stretch for 30 seconds.",
-    "\U0001F9CD 做人最緊要能屈能伸，呢一刻起身拉一拉筋。",
-    "\U0001F32C\uFE0F Take 10 slow, deep breaths.",
-    "\U0001F440 Look at something 20 feet away for 20 seconds (rest your eyes).",
-    "\U0001F440 如果頭腦唔夠清醒，不如望吓窗外風景。",
-    "\U0001F6B6 Walk around for 2 minutes.",
-    "\U0001F6B6 打工唔洗賣埋條命，休息一下冇咁易病。",
-    "\U0001F646 Roll your shoulders back 5 times."
+    "<快d請假買機票> \U0001F4A7 Drink a glass of water.",
+    "<依家請假買機票> \U0001F4A7 做野做到一頭煙，飮杯水清醒下先。",
+    "<即刻請假買機票> \U0001F9CD Stand up and stretch for 30 seconds.",
+    "<馬上請假買機票> \U0001F9CD 做人最緊要能屈能伸，呢一刻起身拉一拉筋。",
+    "<立即請假買機票> \U0001F32C\uFE0F Take 10 slow, deep breaths.",
+    "<立刻請假買機票> \U0001F440 Look at something 20 feet away for 20 seconds (rest your eyes).",
+    "<快d請假買機票> \U0001F440 如果頭腦唔夠清醒，不如望吓窗外風景。",
+    "<即刻請假買機票> \U0001F6B6 Walk around for 2 minutes.",
+    "<依家請假買機票> \U0001F6B6 打工唔洗賣埋條命，休息一下冇咁易病。",
+    "<馬上請假買機票> \U0001F646 Roll your shoulders back 5 times."
 ]
 
 DATA_FILE = "habit_data.json"
