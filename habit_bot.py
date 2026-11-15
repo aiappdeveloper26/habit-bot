@@ -29,8 +29,8 @@ LOG = logging.getLogger(__name__)
 TOKEN = os.environ.get("BOT_TOKEN", "")
 TIMEZONE = os.environ.get("HABIT_TIMEZONE", "Asia/Taipei")
 TZ = ZoneInfo(TIMEZONE)
-HABIT_TIMES = ["09:00", "13:00", "16:00", "20:00"]
-LANGUAGE_TIME = os.environ.get("LANGUAGE_TIME", "08:30")
+HABIT_TIMES = ["09:00", "10:00", "11:00", "12:00", "14:00", "15:00", "16:00", "17:00", "18:00"]
+LANGUAGE_TIME = os.environ.get("LANGUAGE_TIME", "09:30")
 DATA_FILE = Path(os.environ.get("HABIT_DATA_FILE", "habit_data.json"))
 COURSE_FILE = Path(__file__).with_name("language_course_365.json")
 AUTO_AUDIO_DEFAULT = os.environ.get("AUTO_AUDIO_DEFAULT", "true").lower() in ("1", "true", "yes", "on")
@@ -43,12 +43,12 @@ AUDIO_CACHE_LIMIT = 24  # pairs from recent lessons; process memory only
 AUDIO_CACHE = OrderedDict()
 
 HABITS = [
-    "💧 Drink a glass of water.",
-    "🧍 Stand up and stretch for 30 seconds.",
-    "🌬️ Take 10 slow, deep breaths.",
-    "👀 Look at something 20 feet away for 20 seconds.",
-    "🚶 Walk around for 2 minutes.",
-    "🙆 Roll your shoulders back 5 times.",
+    "💧 🇺🇸 Drink a glass of water. 🇮🇹 Bevi un bicchiere d'acqua. 🇯🇵 コップ1杯の水を飲みましょう。",
+    "🧍 🇺🇸 Stand up and stretch for 30 seconds. 🇮🇹 Alzati e fai stretching per 30 secondi. 🇯🇵 立ち上がって30秒間ストレッチをしましょう。",
+    "🌬️ 🇺🇸 Take 10 slow, deep breaths. 🇮🇹 Fai 10 respiri lenti e profondi. 🇯🇵 ゆっくりと10回深呼吸をしましょう。",
+    "👀 🇺🇸 Look at something 20 feet away for 20 seconds. 🇮🇹 Guarda qualcosa a 6 metri di distanza per 20 secondi. 🇯🇵 20秒間、約6メートル先を見つめましょう。",
+    "🚶 🇺🇸 Walk around for 2 minutes. 🇮🇹 Fai due passi per 2 minuti. 🇯🇵 2分間歩き回りましょう。",
+    "🙆 🇺🇸 Roll your shoulders back 5 times. 🇮🇹 Ruota le spalle all'indietro 5 volte. 🇯🇵 肩を後ろに5回回しましょう。",
 ]
 
 
